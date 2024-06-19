@@ -1,1 +1,172 @@
+/* common styles */
+* {
+  box-sizing: border-box;
+}
 
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1113px;
+  height: 307px;
+  margin: 0 auto;
+}
+
+.title {}
+
+.btn {}
+
+
+/* header styles */
+
+.header {
+  background: url("../img/bg-header.jpeg");
+  height: 680px;
+
+}
+
+.header-nav {
+  display: flex;
+}
+
+.logo {
+  position: relative;
+  top: 5px;
+  right: 51px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 117px;
+}
+
+.nav-link {
+  margin-right: 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration: none;
+  color: white;
+
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.header-phone,
+.phone-call {
+  margin-right: 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration: none;
+  color: white;
+}
+
+.phone-call {
+  text-decoration: underline;
+}
+
+.header-title {
+  margin-bottom: 30px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 130%;
+  color: white;
+}
+
+.header-card {
+  display: flex;
+  align-items: center;
+  width: 512px;
+  height: 132px;
+  padding: 40px;
+  margin-bottom: 64px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.header-card_img {
+  width: 44px;
+  height: 44px;
+  margin-right: 14px;
+}
+
+.header-card_text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.header-btn {
+  width: 255px;
+  height: 70px;
+  margin-bottom: 34px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 8px 8px 109px 0px rgba(0, 0, 0, 0.05), 0px 0px 166px 0px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90.00deg, rgb(76, 96, 113) 0%, rgb(85, 189, 234) 100%);
+  color: white;
+}
+
+
+/* main styles */
+
+.main {}
+
+/* about styles */
+
+.about {}
+
+.about-title {}
+
+.about-info {}
+
+.about-text {}
+
+.about-img {}
+
+
+/* question styles */
+
+.question {}
+
+.question-title {}
+
+.question-cards {}
+
+.question-card {}
+
+.card-img {}
+
+.card-title {}
+
+.card-text {}
+
+
+/* portfolio styles */
+
+.portfolio {}
+
+.portfolio-slider {}
+
+
+/* footer styles */
+
+.footer {}
