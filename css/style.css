@@ -2,6 +2,10 @@
 * {
   box-sizing: border-box;
 }
+body {
+  padding: 0;
+  margin: 0;
+}
 
 .wrapper {
   max-width: 1440px;
@@ -16,7 +20,6 @@
 .title {}
 
 .btn {}
-
 
 /* header styles */
 
@@ -50,7 +53,6 @@
   line-height: 150%;
   text-decoration: none;
   color: white;
-
 }
 
 .header-contact {
@@ -141,6 +143,7 @@
 
 .about {
   padding-top: 160px;
+  padding-bottom: 100px;
 }
 
 .about-title {
@@ -167,27 +170,67 @@
   right: -120px;
 }
 
-
 /* question styles */
 
-.question {}
+.question {
+  padding: 60px;
+  background: url("../img/booble2.png") rgba(76, 96, 113, 0.9);
+}
 
-.question-title {}
+.question-title {
+  margin-left: 95px;
+  margin-bottom: 67px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  color: white;
+}
 
-.question-cards {}
+.question-cards {
+  display: flex;
+  gap: 30px;
+}
 
-.question-card {}
+.question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 255px;
+  padding: 65px 30px 60px;
+  background-color: white;
+  border-radius: 20px;
+}
 
-.card-img {}
+.card-img {
+  width: 46px;
+  height: 46px;
+}
 
-.card-title {}
+.card-title {
+  color: rgb(55, 55, 55);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: left;
+}
 
-.card-text {}
-
+.card-text {
+  width: 195px;
+  color: rgb(55, 55, 55);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
 
 /* portfolio styles */
 
-.portfolio {}
+.portfolio {
+  padding-top: 160px;
+  background: url("../img/booble2.png") 0 0 no-repeat
+}
 
 .portfolio-slider {}
 
