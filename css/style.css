@@ -10,7 +10,6 @@
 
 .container {
   width: 1113px;
-  height: 307px;
   margin: 0 auto;
 }
 
@@ -24,7 +23,6 @@
 .header {
   background: url("../img/bg-header.jpeg");
   height: 680px;
-
 }
 
 .header-nav {
@@ -125,22 +123,49 @@
   color: white;
 }
 
+.header-btn:focus {
+  outline: 5px solid rgb(0, 0, 0);
+}
+
+.header-btn:active {
+  background: linear-gradient(90.00deg, rgb(100, 136, 212), rgb(25, 63, 80) 100%);
+}
 
 /* main styles */
 
-.main {}
+.main {
+  background: url("../img/booble.png") 0 0 no-repeat;
+}
 
 /* about styles */
 
-.about {}
+.about {
+  padding-top: 160px;
+}
 
-.about-title {}
+.about-title {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
 
-.about-info {}
+.about-info {
+  display: flex;
+}
 
-.about-text {}
+.about-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
+}
 
-.about-img {}
+.about-img {
+  position: relative;
+  top: -50px;
+  right: -120px;
+}
 
 
 /* question styles */
