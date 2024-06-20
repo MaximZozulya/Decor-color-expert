@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -232,8 +233,79 @@ body {
   background: url("../img/booble2.png") 0 0 no-repeat
 }
 
-.portfolio-slider {}
+.portfolio-title {
+  margin-bottom: 50px;
+  margin-left: 95px;
+  color: rgb(55, 55, 55);
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
 
+.swiper-wrapper {
+  margin-bottom: 80px;
+}
+
+.swiper-slide {
+  width: 1110px;
+}
+
+.slide-cards {
+  display: flex;
+  width: 1110px;
+}
+
+.slide-card {
+  margin-right: 30px;
+}
+
+.slide-img {
+  width: 540px;
+  border-radius: 20px;
+}
+
+.slite-title {
+  color: rgb(55, 55, 55);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.slide-text {
+  color: rgb(55, 55, 55);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background: url("../img/arrow-left.svg") no-repeat;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: -55px;
+  left: 949px;
+}
+
+.swiper-button-next {
+  background: url("../img/arrow-right .svg") no-repeat;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: -57px;
+  left: 993px;
+}
 
 /* footer styles */
 
