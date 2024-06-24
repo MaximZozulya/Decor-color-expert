@@ -54,7 +54,7 @@ body {
 }
 
 .logo:hover {
- transform:scale(1.5);
+  transform: scale(1.5);
 }
 
 .nav-list {
@@ -140,6 +140,7 @@ body {
 .header-btn:active {
   background: linear-gradient(90.00deg, rgb(100, 136, 212), rgb(25, 63, 80) 100%);
 }
+
 .portfolio-btn:active {
   background: linear-gradient(90.00deg, rgb(100, 136, 212), rgb(25, 63, 80) 100%);
 }
@@ -326,6 +327,92 @@ body {
   font-weight: 300;
   margin-left: 39%;
 }
+
+.price {
+  padding: 90px;
+  background: url("../img/booble2.png") rgba(76, 96, 113, 0.9);
+}
+
+.price-text {
+  margin: 0 0 30px 0;
+  padding: 30px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.price-text p {
+  margin: 0;
+  width: 790px;
+}
+
+.price-cards {
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.price-card {
+  border-radius: 30px;
+}
+
+.price-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-title,
+.price-label {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+
+.price-form {
+  display: flex;
+  padding: 30px;
+  border-radius: 30px;
+  background: rgb(76, 96, 113);
+}
+
+.price-list {
+  padding: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+  list-style: none;
+  width: 408px;
+  height: 70px;
+}
+
+.price-item {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 109px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+}
+
+.item-label {
+  width: 250px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.form-info {}
+
+.price-img {}
+
 
 /* footer styles */
 
