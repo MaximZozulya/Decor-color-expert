@@ -50,6 +50,11 @@ body {
   position: relative;
   top: 5px;
   right: 51px;
+  transition: 0.3s;
+}
+
+.logo:hover {
+ transform:scale(1.5);
 }
 
 .nav-list {

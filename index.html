@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Decor color expert</title>
   </head>
@@ -20,7 +21,7 @@
       <header class="header">
         <div class="container">
           <nav class="header-nav">
-            <a href="./" class="logo-link"><img class="logo" src="img/logo.svg" alt="logo"/></a>
+            <a href="./" class="logo-link wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s"><img class="logo" src="img/logo.svg" alt="logo"/></a>
             <ul class="nav-list">
               <li><a href="#" class="nav-link">Главная</a></li>
               <li><a href="#" class="nav-link">Портфолио </a></li>
@@ -188,5 +189,9 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
