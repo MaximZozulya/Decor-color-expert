@@ -332,6 +332,7 @@ body {
 
 .price {
   padding: 90px;
+  margin-bottom: 150px;
   background: url("../img/booble2.png") rgba(76, 96, 113, 0.9);
 }
 
@@ -356,9 +357,35 @@ body {
   border-radius: 20px;
 }
 
+/* cards */
 .card-first {
   /* display: none; */
 }
+
+.card-secondary {
+  display: none;
+}
+
+.card-three {
+  display: none;
+}
+
+.card-fourth {
+  display: none;
+}
+
+.card-five {
+  display: none;
+}
+
+.card-six {
+  display: none;
+}
+
+.card-seven {
+  display: none;
+}
+
 
 .price-card {
   padding: 30px;
@@ -411,7 +438,6 @@ body {
   color: #ffffff;
 }
 
-
 .item-label {
   width: 250px;
   font-family: "Roboto", sans-serif;
@@ -463,7 +489,7 @@ body {
 
 .telegram-mod {
   width: 185px;
-  height: 70px
+  height: 70px;
 }
 
 .viber-mod {
@@ -472,6 +498,62 @@ body {
   left: 198px;
   width: 185px;
   height: 70px;
+}
+
+.last-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 613px;
+  padding-bottom: 150px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 39px;
+  font-weight: 800;
+  line-height: 130%;
+  background: url("../img/price/price-card7.jpeg") 0 0 no-repeat;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.last-card p {
+  width: 802px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* catalog styles */
+
+/* .catalog {
+  background: url("../img/booble2.png") 0 0 no-repeat;
+} */
+
+
+.catalog-title {
+  margin-left: 95px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%
+}
+
+.catalog-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-bottom: 70px;
+
+}
+
+
+figcaption {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 /* footer styles */

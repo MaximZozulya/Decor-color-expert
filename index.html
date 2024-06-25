@@ -45,8 +45,8 @@
       <!-- /.header -->
 
       <main class="main">
-        <div class="container">
         <section class="about">
+          <div class="container">
             <h2 class="about-title title">О нас</h2>
             <div class="about-info">
               <div class="about-text">
@@ -201,12 +201,12 @@
                   </ul>
                   <div class="form-info">
                     <img class="price-img" src="img/price/price-card1.jpeg" alt="price-card" title="price-card" >
-                    <button class="prew-btn">Назад</button><button class="next-btn btn">Далее</button>
+                    <button class="prew-btn">Назад</button><button class="next-btn btn" id="card-button">Далее</button>
                   </div>
                 </form>
               </div>
 
-              <div class="price-card">
+              <div class="price-card card-secondary">
                 <div class="price-info">
                   <h2 class="price-title">Где будут выполняться работы?</h2>
                   <label class="price-label">Вопрос 2 из 5</label>
@@ -223,7 +223,7 @@
                 </form>
               </div>
 
-              <div class="price-card">
+              <div class="price-card card-three">
                 <div class="price-info">
                   <h2 class="price-title">Где будут выполняться работы?</h2>
                   <label class="price-label">Вопрос 3 из 5</label>
@@ -232,7 +232,7 @@
                   <ul class="price-list">
                     <li class="price-item"><label class="item-label" for="six">Менее 100 м2</label><input type="radio" name="price-item" id="six"></li>
                     <li class="price-item"><label class="item-label" for="seven">Менее 100 м2</label><input type="radio" name="price-item" id="seven"></li>
-                    <li class="price-item price-item-modification"><label class="item-label" for="eight"><input class="form-input" type="text" placeholder="Точная площадь"></label><input type="radio" name="price-item" id="eight"></li>
+                    <li class="price-item price-item-modification"><label class="item-label" for="eight"><input class="form-input" type="text" placeholder="Точная площадь" required></label><input type="radio" name="price-item" id="eight"></li>
                   </ul>
                   <div class="form-info">
                     <img class="price-img" src="img/price/price-card3.jpeg" alt="price-card" title="price-card" >
@@ -241,7 +241,7 @@
                 </form>
               </div>
 
-              <div class="price-card">
+              <div class="price-card card-fourth">
                 <div class="price-info">
                   <h2 class="price-title">Уровень подготовки стен?</h2>
                   <label class="price-label">Вопрос 4 из 5</label>
@@ -250,7 +250,7 @@
                   <ul class="price-list">
                     <li class="price-item"><label class="item-label" for="nine">Оштукатуренные стены </label><input type="radio" name="price-item" id="nine"></li>
                     <li class="price-item"><label class="item-label" for="ten">Ошпаклеванные стены</label><input type="radio" name="price-item" id="ten"></li>
-                    <li class="price-item price-item-modification"><label class="item-label" for="eight"><input class="form-input" type="text" placeholder="Другое"></label><input type="radio" name="price-item" id="eight"></li>
+                    <li class="price-item price-item-modification"><label class="item-label" for="eight"><input class="form-input" type="text" placeholder="Другое" required></label><input type="radio" name="price-item" id="eight"></li>
                   </ul>
                   <div class="form-info">
                     <img class="price-img" src="img/price/price-card4.jpeg" alt="price-card" title="price-card" >
@@ -259,7 +259,7 @@
                 </form>
               </div>
 
-              <div class="price-card">
+              <div class="price-card card-five">
                 <div class="price-info">
                   <h2 class="price-title">Где находится объект?</h2>
                   <label class="price-label">Вопрос 5 из 5</label>
@@ -276,17 +276,17 @@
                 </form>
               </div>
 
-              <div class="price-card">
+              <div class="price-card card-six">
                 <div class="price-info">
                   <h2 class="price-title">Куда отправить результат?</h2>
                 </div>
                 <form class="price-form" action="#" >
                   <ul class="price-list">
-                    <li class="price-item price-item-modification"><label class="item-label" for="name"><input class="form-input" type="text" placeholder="Имя"></label></li>
-                    <li class="price-item price-item-modification"><label class="item-label" for="phone"><input class="form-input" type="text" placeholder="Номер телефона"></li>
+                    <li class="price-item price-item-modification"><label class="item-label" for="name"><input class="form-input" type="text" placeholder="Имя" required></label></li>
+                    <li class="price-item price-item-modification"><label class="item-label" for="phone"><input class="form-input" type="text" placeholder="Номер телефона" required></li>
                     <li class="price-item telegram-mod"><label class="item-label" for="telegram">Telegram</label><input type="radio" name="price-item" id="telegram"></li>
                     <li class="price-item viber-mod"><label class="item-label" for="viber">Viber</label><input type="radio" name="price-item" id="viber"></li>
-                    <li class="price-item price-item-modification"><label class="item-label" for="email"><input class="form-input" type="text" placeholder="E-mail"></li>
+                    <li class="price-item price-item-modification"><label class="item-label" for="email"><input class="form-input" type="text" placeholder="E-mail" required></li>
                   </ul>
                   <div class="form-info">
                     <img class="price-img" src="img/price/price-card6.jpeg" alt="price-card" title="price-card" >
@@ -295,12 +295,60 @@
                 </form>
               </div>
 
-
-
+              <div class="price-card card-seven">
+                <div class="last-card">
+                  <p>
+                    Спасибо, что выбрали нас!
+                  </p>
+                  <p>
+                    Менеджер свяжется с Вами в ближайшее время.
+                  </p>
+              </div>
             </div>
           </div>
         </section>
         <!-- /.price -->
+
+        <section class="catalog">
+          <div class="cantainer">
+            <h2 class="catalog-title">Каталог фактур</h2>
+            <div class="catalog-box">
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img1.jpeg" alt="grotto" title="grotto">
+                <figcaption>grotto</figcaption>
+              </figure>
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img2.jpeg" alt="marmorino" title="marmorino">
+                <figcaption>marmorino</figcaption>
+              </figure>
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img3.jpeg" alt="venziano" title="venziano">
+                <figcaption>venziano</figcaption>
+              </figure>
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img4.jpeg" alt="magie" title="magie">
+                <figcaption>magie</figcaption>
+              </figure>
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img5.jpeg" alt="lava" title="lava">
+                <figcaption>lava</figcaption>
+              </figure>
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img6.jpeg" alt="persia" title="persia">
+                <figcaption>persia</figcaption>
+              </figure>
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img7.jpeg" alt="sahara gold" title="sahara gold">
+                <figcaption>sahara gold</figcaption>
+              </figure>
+              <figure>
+                <img class="catalog-img" src="img/catalog/catalog-img8.jpeg" alt="travertino" title="travertino">
+                <figcaption>travertino</figcaption>
+              </figure>
+            </div>
+            <button>Показать больше</button>
+          </div>
+        </section>
 
       </main>
       <!-- /.main -->
