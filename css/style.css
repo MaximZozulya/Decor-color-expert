@@ -24,7 +24,7 @@ body {
   width: 255px;
   height: 70px;
   margin-bottom: 34px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 150%;
@@ -32,7 +32,7 @@ body {
   border: 0;
   box-shadow: 8px 8px 109px 0px rgba(0, 0, 0, 0.05), 0px 0px 166px 0px rgba(0, 0, 0, 0.2);
   background: linear-gradient(90.00deg, rgb(76, 96, 113) 0%, rgb(85, 189, 234) 100%);
-  color: white;
+  color: #ffffff;
 }
 
 /* header styles */
@@ -66,12 +66,12 @@ body {
 
 .nav-link {
   margin-right: 20px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .header-contact {
@@ -84,12 +84,12 @@ body {
 .header-phone,
 .phone-call {
   margin-right: 20px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .phone-call {
@@ -123,7 +123,7 @@ body {
 }
 
 .header-card_text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 150%;
@@ -170,7 +170,7 @@ body {
 }
 
 .about-text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 150%;
@@ -196,7 +196,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 130%;
-  color: white;
+  color: #ffffff;
 }
 
 .question-cards {
@@ -210,7 +210,7 @@ body {
   align-items: center;
   width: 255px;
   padding: 65px 30px 60px;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 20px;
 }
 
@@ -221,7 +221,7 @@ body {
 
 .card-title {
   color: rgb(55, 55, 55);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
@@ -231,7 +231,7 @@ body {
 .card-text {
   width: 195px;
   color: rgb(55, 55, 55);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
@@ -245,7 +245,7 @@ body {
 }
 
 .portfolio-slider {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .portfolio-title {
@@ -283,7 +283,7 @@ body {
 
 .slite-title {
   color: rgb(55, 55, 55);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
@@ -291,7 +291,7 @@ body {
 
 .slide-text {
   color: rgb(55, 55, 55);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
@@ -328,6 +328,8 @@ body {
   margin-left: 39%;
 }
 
+/* price styles */
+
 .price {
   padding: 90px;
   background: url("../img/booble2.png") rgba(76, 96, 113, 0.9);
@@ -340,7 +342,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 130%;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 20px;
 }
 
@@ -350,12 +352,16 @@ body {
 }
 
 .price-cards {
-  padding: 30px;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 20px;
 }
 
+.card-first {
+  /* display: none; */
+}
+
 .price-card {
+  padding: 30px;
   border-radius: 30px;
 }
 
@@ -373,7 +379,6 @@ body {
   line-height: 130%;
 }
 
-
 .price-form {
   display: flex;
   padding: 30px;
@@ -382,6 +387,7 @@ body {
 }
 
 .price-list {
+  position: relative;
   padding: 0;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -397,22 +403,76 @@ body {
   justify-content: space-between;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 8px 8px 109px 0px rgba(0, 0, 0, 0.05);
   background: rgb(255, 255, 255);
 }
 
+.price-item:hover:not(.price-item-modification) {
+  background: linear-gradient(90.00deg, rgb(76, 96, 113), rgb(85, 189, 234) 100%);
+  color: #ffffff;
+}
+
+
 .item-label {
   width: 250px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 150%;
 }
 
-.form-info {}
+.price-img {
+  display: block;
+  width: 580px;
+  height: 230px;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
 
-.price-img {}
+.prew-btn {
+  width: 290px;
+  height: 70px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
+  border-radius: 10px;
+  border: none;
+  background: rgb(143, 143, 143);
+  color: #ffffff;
+  margin-right: 30px;
+}
 
+.prew-btn--modification {
+  background: linear-gradient(90.00deg, rgb(76, 96, 113) 0%, rgb(85, 189, 234) 100%);
+  color: #ffffff;
+}
+
+.next-btn {
+  font-weight: 300;
+}
+
+.form-input {
+  outline: none;
+  width: 284px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.telegram-mod {
+  width: 185px;
+  height: 70px
+}
+
+.viber-mod {
+  position: absolute;
+  top: 166px;
+  left: 198px;
+  width: 185px;
+  height: 70px;
+}
 
 /* footer styles */
 
