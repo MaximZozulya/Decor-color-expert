@@ -575,6 +575,89 @@ figcaption {
 
 /* feedback styles */
 
+.feedback {
+  position: relative;
+  padding: 45px 0 45px;
+  background: url("../img/booble.png") rgba(76, 96, 113, 0.9);
+}
+
+.feedback-title {
+  margin-bottom: 87px;
+  padding-left: 95px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.feedback-slider {}
+
+.swiper-wrapper {}
+
+.feedback-button-prev {
+  background: url("../img/video/arrow-left.svg") 0 0 no-repeat;
+  position: absolute;
+  top: -118px;
+  right: 164;
+  width: 24px;
+  height: 24px;
+}
+
+.feedback-button-next {
+  background: url("../img/video/arrow-right.svg") 0 0 no-repeat;
+  position: absolute;
+  top: -118px;
+  right: 104px;
+  width: 24px;
+  height: 24px;
+
+}
+
+.swiper-slide {}
+
+.feedback-box {
+  display: flex;
+}
+
+.feedback-card {
+  margin-right: 30px;
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.feedback-card::before {
+  content: '';
+  background: url("../img/video/Play.svg") center center no-repeat;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: none;
+}
+
+.feedback-img {
+  border-radius: 20px;
+  border: 2px dashed #ffffff;
+}
+
+.feedback-text {
+  width: 253px;
+  height: 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  color: #ffffff;
+}
+
 /* discuss styles */
 
 .discuss {
