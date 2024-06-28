@@ -1,0 +1,15 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip308_131">
+			<rect id="facebook-square 1" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="facebook-square 1" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip308_131)">
+		<path id="Vector" d="M10.69 8.93L10.69 10.31L9.68 10.31L9.68 11.99L10.69 11.99L10.69 17L12.76 17L12.76 11.99L14.15 11.99C14.15 11.99 14.28 11.18 14.35 10.3L12.77 10.3L12.77 9.15C12.77 8.98 13 8.75 13.22 8.75L14.35 8.75L14.35 7L12.81 7C10.64 7 10.69 8.68 10.69 8.93Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M6 4C5.46 4 4.96 4.21 4.58 4.58C4.21 4.96 4 5.46 4 6L4 18C4 18.53 4.21 19.03 4.58 19.41C4.96 19.78 5.46 20 6 20L18 20C18.53 20 19.03 19.78 19.41 19.41C19.78 19.03 20 18.53 20 18L20 6C20 5.46 19.78 4.96 19.41 4.58C19.03 4.21 18.53 4 18 4L6 4ZM6 2L18 2C19.06 2 20.07 2.42 20.82 3.17C21.57 3.92 22 4.93 22 6L22 18C22 19.06 21.57 20.07 20.82 20.82C20.07 21.57 19.06 22 18 22L6 22C4.93 22 3.92 21.57 3.17 20.82C2.42 20.07 2 19.06 2 18L2 6C2 4.93 2.42 3.92 3.17 3.17C3.92 2.42 4.93 2 6 2L6 2Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

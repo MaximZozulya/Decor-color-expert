@@ -490,6 +490,21 @@ body {
   height: 70px;
 }
 
+.telegram-mod img,
+.viber-mod img {
+  width: 24px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.email {
+  display: flex;
+}
+
+.email img {
+  margin-right: 10px;
+}
+
 .last-card {
   display: flex;
   flex-direction: column;
@@ -623,4 +638,60 @@ figcaption {
 
 /* footer styles */
 
-.footer {}
+.footer {
+  padding: 45px 0 45px;
+  margin-bottom: 50px;
+  background: url("../img/booble.png") rgba(76, 96, 113, 0.9);
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-title {
+  margin: 0;
+  margin-bottom: 37px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.footer-subtitle,
+.generals-title,
+.generals-email,
+.generals-phone {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.footer-subtitle {
+  margin-bottom: 33px;
+}
+
+.footer-social {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.social-link {
+  padding-right: 24px;
+}
+
+.footer-generals {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+iframe {
+  border-radius: 20px;
+}
