@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
 
 });
 
-const feedbackslider = new Swiper('.feedback-slider', {
+const feedback = new Swiper('.swiper', {
   // Optional parameters
   // direction: 'vertical',
   loop: true,
@@ -25,3 +25,4 @@ const feedbackslider = new Swiper('.feedback-slider', {
   },
 
 });
+

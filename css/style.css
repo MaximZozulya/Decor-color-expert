@@ -591,15 +591,11 @@ figcaption {
   color: #ffffff;
 }
 
-.feedback-slider {}
-
-.swiper-wrapper {}
-
 .feedback-button-prev {
   background: url("../img/video/arrow-left.svg") 0 0 no-repeat;
   position: absolute;
-  top: -118px;
-  right: 164;
+  top: 66px;
+  right: 298px;
   width: 24px;
   height: 24px;
 }
@@ -607,21 +603,19 @@ figcaption {
 .feedback-button-next {
   background: url("../img/video/arrow-right.svg") 0 0 no-repeat;
   position: absolute;
-  top: -118px;
-  right: 104px;
+  top: 66px;
+  right: 252px;
   width: 24px;
   height: 24px;
 
 }
-
-.swiper-slide {}
 
 .feedback-box {
   display: flex;
 }
 
 .feedback-card {
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 .card-title {
@@ -791,6 +785,12 @@ figcaption {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   color: #ffffff;
+  transition: all .3s;
+}
+
+.overlay:hover {
+  opacity: 0;
+  /* display: none; */
 }
 
 .overlay span {
@@ -802,10 +802,6 @@ figcaption {
   font-weight: 500;
   line-height: 130%;
   color: #ffffff;
-}
-
-.overlay:hover {
-  display: none;
 }
 
 iframe {
