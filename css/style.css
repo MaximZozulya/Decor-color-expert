@@ -250,14 +250,6 @@ body {
   text-align: left;
 }
 
-.swiper-wrapper {
-  margin-bottom: 80px;
-}
-
-.swiper-slide {
-  width: 1110px;
-}
-
 .slide-cards {
   display: flex;
   width: 1110px;
@@ -303,6 +295,7 @@ body {
   height: 24px;
   top: -55px;
   left: 949px;
+  cursor: pointer;
 }
 
 .swiper-button-next {
@@ -312,6 +305,7 @@ body {
   height: 24px;
   top: -57px;
   left: 993px;
+  cursor: pointer;
 }
 
 .portfolio-btn {
@@ -346,36 +340,6 @@ body {
   background-color: #ffffff;
   border-radius: 20px;
 }
-
-/* cards */
-.card-first {
-  /* display: none; */
-}
-
-.card-secondary {
-  /* display: none; */
-}
-
-.card-three {
-  /* display: none; */
-}
-
-.card-fourth {
-  /* display: none; */
-}
-
-.card-five {
-  /* display: none; */
-}
-
-.card-six {
-  /* display: none; */
-}
-
-.card-seven {
-  /* display: none; */
-}
-
 
 .price-card {
   padding: 30px;
@@ -458,6 +422,7 @@ body {
   background: rgb(143, 143, 143);
   color: #ffffff;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .prew-btn--modification {
@@ -467,6 +432,7 @@ body {
 
 .next-btn {
   font-weight: 300;
+  cursor: pointer;
 }
 
 .form-input {
@@ -598,6 +564,7 @@ figcaption {
   right: 298px;
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
 .feedback-button-next {
@@ -607,7 +574,7 @@ figcaption {
   right: 252px;
   width: 24px;
   height: 24px;
-
+  cursor: pointer;
 }
 
 .feedback-box {
@@ -711,7 +678,6 @@ figcaption {
 .discuss-btn {
   font-weight: 300;
 }
-
 
 /* footer styles */
 

@@ -199,7 +199,11 @@
               </p>
             </div>
             <div class="price-cards">
-              <div class="price-card card-first">
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="price-card card-first">
                 <div class="price-info">
                   <h2 class="price-title">Какая услуга Вас интересует?</h2>
                   <label class="price-label">Вопрос 1 из 5</label>
@@ -217,156 +221,164 @@
                   </ul>
                   <div class="form-info">
                     <img class="price-img" src="img/price/price-card1.jpeg" alt="price-card" title="price-card" >
-                    <button class="prew-btn btn">Назад</button><button class="next-btn btn" id="card-button">Далее</button>
+                    <button class="prew-btn btn cards-button-prev">Назад</button>
+                    <button class="next-btn btn cards-button-next">Далее</button>
                   </div>
                 </form>
               </div>
-
-              <div class="price-card card-secondary">
-                <div class="price-info">
-                  <h2 class="price-title">Где будут выполняться работы?</h2>
-                  <label class="price-label">Вопрос 2 из 5</label>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="price-card card-secondary">
+                      <div class="price-info">
+                        <h2 class="price-title">Где будут выполняться работы?</h2>
+                        <label class="price-label">Вопрос 2 из 5</label>
+                      </div>
+                      <form class="price-form" action="#" >
+                        <ul class="price-list">
+                          <li class="price-item"><label class="item-label" for="four">В помещении</label>
+                            <input type="radio" name="price-item" id="four">
+                          </li>
+                          <li class="price-item"><label class="item-label" for="five">Фасад</label>
+                            <input type="radio" name="price-item" id="five">
+                          </li>
+                        </ul>
+                        <div class="form-info">
+                          <img class="price-img" src="img/price/price-card2.jpeg" alt="price-card" title="price-card" >
+                          <button class="prew-btn btn prew-btn--modification cards-button-prev">Назад</button>
+                          <button class="next-btn btn cards-button-next">Далее</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="price-card card-three">
+                    <div class="price-info">
+                      <h2 class="price-title">Где будут выполняться работы?</h2>
+                      <label class="price-label">Вопрос 3 из 5</label>
+                    </div>
+                    <form class="price-form" action="#" >
+                      <ul class="price-list">
+                        <li class="price-item"><label class="item-label" for="six">Менее 100 м2</label>
+                          <input type="radio" name="price-item" id="six">
+                        </li>
+                        <li class="price-item"><label class="item-label" for="seven">Менее 100 м2</label>
+                          <input type="radio" name="price-item" id="seven">
+                        </li>
+                        <li class="price-item price-item-modification"><label class="item-label" for="eight">
+                          <input class="form-input" type="text" placeholder="Точная площадь" required></label>
+                          <input type="radio" name="price-item" id="eight">
+                        </li>
+                      </ul>
+                      <div class="form-info">
+                        <img class="price-img" src="img/price/price-card3.jpeg" alt="price-card" title="price-card" >
+                        <button class="prew-btn btn prew-btn--modification cards-button-prev">Назад</button>
+                        <button class="next-btn btn cards-button-next">Далее</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="price-card card-fourth">
+                    <div class="price-info">
+                      <h2 class="price-title">Уровень подготовки стен?</h2>
+                      <label class="price-label">Вопрос 4 из 5</label>
+                    </div>
+                    <form class="price-form" action="#" >
+                      <ul class="price-list">
+                        <li class="price-item"><label class="item-label" for="nine">Оштукатуренные стены </label>
+                          <input type="radio" name="price-item" id="nine">
+                        </li>
+                        <li class="price-item"><label class="item-label" for="ten">Ошпаклеванные стены</label>
+                          <input type="radio" name="price-item" id="ten">
+                        </li>
+                        <li class="price-item price-item-modification"><label class="item-label" for="eight">
+                          <input class="form-input" type="text" placeholder="Другое" required></label>
+                          <input type="radio" name="price-item" id="eight">
+                        </li>
+                      </ul>
+                      <div class="form-info">
+                        <img class="price-img" src="img/price/price-card4.jpeg" alt="price-card" title="price-card" >
+                        <button class="prew-btn btn prew-btn--modification cards-button-prev">Назад</button>
+                        <button class="next-btn btn cards-button-next">Далее</button>
+                      </div>
+                    </form>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="price-card card-five">
+                    <div class="price-info">
+                      <h2 class="price-title">Где находится объект?</h2>
+                      <label class="price-label">Вопрос 5 из 5</label>
+                    </div>
+                    <form class="price-form" action="#" >
+                      <ul class="price-list">
+                        <li class="price-item"><label class="item-label" for="eleven">Одесса</label>
+                          <input type="radio" name="price-item" id="eleven">
+                        </li>
+                        <li class="price-item"><label class="item-label" for="twelve">Пригород</label>
+                          <input type="radio" name="price-item" id="twelve">
+                        </li>
+                      </ul>
+                      <div class="form-info">
+                        <img class="price-img" src="img/price/price-card5.jpeg" alt="price-card" title="price-card" >
+                        <button class="prew-btn btn prew-btn--modification cards-button-prev">Назад</button>
+                        <button class="next-btn btn cards-button-next">Далее</button>
+                      </div>
+                    </form>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                  <div class="price-card card-six">
+                    <div class="price-info">
+                      <h2 class="price-title">Куда отправить результат?</h2>
+                    </div>
+                      <form class="price-form" action="#" >
+                        <ul class="price-list">
+                          <li class="price-item price-item-modification">
+                            <label class="item-label" for="name">
+                              <input class="form-input" type="text" placeholder="Имя" required></label>
+                          </li>
+                          <li class="price-item price-item-modification">
+                            <label class="item-label" for="phone">
+                              <input class="form-input" type="text" placeholder="Номер телефона" required></label>
+                            </li>
+                          <li class="price-item telegram-mod">
+                            <img src="img/price/telegram-price.svg" alt="telegram-price">
+                            <label class="item-label" for="telegram">Telegram</label>
+                            <input type="radio" name="price-item" id="telegram">
+                          </li>
+                          <li class="price-item viber-mod">
+                            <img src="img/price/viber-price.svg" alt="viber-price">
+                            <label class="item-label" for="viber">Viber</label>
+                            <input type="radio" name="price-item" id="viber">
+                          </li>
+                          <li class="price-item price-item-modification"><label class="item-label email" for="email">
+                            <img src="img/price/email-price.svg" alt="email-price">
+                            <input class="form-input" type="text" placeholder="E-mail" required></label>
+                          </li>
+                        </ul>
+                        <div class="form-info">
+                          <img class="price-img" src="img/price/price-card6.jpeg" alt="price-card" title="price-card" >
+                          <button class="prew-btn btn prew-btn--modification cards-button-prev">Назад</button>
+                          <button type="submit" class="next-btn btn cards-button-next">Отправить</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="price-card card-seven">
+                      <div class="last-card">
+                       <p>
+                         Спасибо, что выбрали нас!
+                       </p>
+                       <p>
+                         Менеджер свяжется с Вами в ближайшее время.
+                       </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <form class="price-form" action="#" >
-
-                  <ul class="price-list">
-                    <li class="price-item"><label class="item-label" for="four">В помещении</label>
-                      <input type="radio" name="price-item" id="four">
-                    </li>
-                    <li class="price-item"><label class="item-label" for="five">Фасад</label>
-                      <input type="radio" name="price-item" id="five">
-                    </li>
-                  </ul>
-                  <div class="form-info">
-                    <img class="price-img" src="img/price/price-card2.jpeg" alt="price-card" title="price-card" >
-                    <button class="prew-btn btn prew-btn--modification">Назад</button>
-                    <button class="next-btn btn">Далее</button>
-                  </div>
-                </form>
-              </div>
-
-              <div class="price-card card-three">
-                <div class="price-info">
-                  <h2 class="price-title">Где будут выполняться работы?</h2>
-                  <label class="price-label">Вопрос 3 из 5</label>
-                </div>
-                <form class="price-form" action="#" >
-                  <ul class="price-list">
-                    <li class="price-item"><label class="item-label" for="six">Менее 100 м2</label>
-                      <input type="radio" name="price-item" id="six">
-                    </li>
-                    <li class="price-item"><label class="item-label" for="seven">Менее 100 м2</label>
-                      <input type="radio" name="price-item" id="seven">
-                    </li>
-                    <li class="price-item price-item-modification"><label class="item-label" for="eight">
-                      <input class="form-input" type="text" placeholder="Точная площадь" required></label>
-                      <input type="radio" name="price-item" id="eight">
-                    </li>
-                  </ul>
-                  <div class="form-info">
-                    <img class="price-img" src="img/price/price-card3.jpeg" alt="price-card" title="price-card" >
-                    <button class="prew-btn btn prew-btn--modification">Назад</button>
-                    <button class="next-btn btn">Далее</button>
-                  </div>
-                </form>
-              </div>
-
-              <div class="price-card card-fourth">
-                <div class="price-info">
-                  <h2 class="price-title">Уровень подготовки стен?</h2>
-                  <label class="price-label">Вопрос 4 из 5</label>
-                </div>
-                <form class="price-form" action="#" >
-                  <ul class="price-list">
-                    <li class="price-item"><label class="item-label" for="nine">Оштукатуренные стены </label>
-                      <input type="radio" name="price-item" id="nine">
-                    </li>
-                    <li class="price-item"><label class="item-label" for="ten">Ошпаклеванные стены</label>
-                      <input type="radio" name="price-item" id="ten">
-                    </li>
-                    <li class="price-item price-item-modification"><label class="item-label" for="eight">
-                      <input class="form-input" type="text" placeholder="Другое" required></label>
-                      <input type="radio" name="price-item" id="eight">
-                    </li>
-                  </ul>
-                  <div class="form-info">
-                    <img class="price-img" src="img/price/price-card4.jpeg" alt="price-card" title="price-card" >
-                    <button class="prew-btn btn prew-btn--modification">Назад</button>
-                    <button class="next-btn btn">Далее</button>
-                  </div>
-                </form>
-              </div>
-
-              <div class="price-card card-five">
-                <div class="price-info">
-                  <h2 class="price-title">Где находится объект?</h2>
-                  <label class="price-label">Вопрос 5 из 5</label>
-                </div>
-                <form class="price-form" action="#" >
-                  <ul class="price-list">
-                    <li class="price-item"><label class="item-label" for="eleven">Одесса</label>
-                      <input type="radio" name="price-item" id="eleven">
-                    </li>
-                    <li class="price-item"><label class="item-label" for="twelve">Пригород</label>
-                      <input type="radio" name="price-item" id="twelve">
-                    </li>
-                  </ul>
-                  <div class="form-info">
-                    <img class="price-img" src="img/price/price-card5.jpeg" alt="price-card" title="price-card" >
-                    <button class="prew-btn btn prew-btn--modification">Назад</button>
-                    <button class="next-btn btn">Далее</button>
-                  </div>
-                </form>
-              </div>
-
-              <div class="price-card card-six">
-                <div class="price-info">
-                  <h2 class="price-title">Куда отправить результат?</h2>
-                </div>
-                <form class="price-form" action="#" >
-                  <ul class="price-list">
-                    <li class="price-item price-item-modification">
-                      <label class="item-label" for="name">
-                        <input class="form-input" type="text" placeholder="Имя" required></label>
-                    </li>
-                    <li class="price-item price-item-modification">
-                      <label class="item-label" for="phone">
-                        <input class="form-input" type="text" placeholder="Номер телефона" required></label>
-                      </li>
-                    <li class="price-item telegram-mod">
-                      <img src="img/price/telegram-price.svg" alt="telegram-price">
-                      <label class="item-label" for="telegram">Telegram</label>
-                      <input type="radio" name="price-item" id="telegram">
-                    </li>
-                    <li class="price-item viber-mod">
-                      <img src="img/price/viber-price.svg" alt="viber-price">
-                      <label class="item-label" for="viber">Viber</label>
-                      <input type="radio" name="price-item" id="viber">
-                    </li>
-                    <li class="price-item price-item-modification"><label class="item-label email" for="email">
-                      <img src="img/price/email-price.svg" alt="email-price">
-                      <input class="form-input" type="text" placeholder="E-mail" required></label>
-                    </li>
-                  </ul>
-                  <div class="form-info">
-                    <img class="price-img" src="img/price/price-card6.jpeg" alt="price-card" title="price-card" >
-                    <button class="prew-btn btn prew-btn--modification">Назад</button>
-                    <button type="submit" class="next-btn btn">Отправить</button>
-                  </div>
-                </form>
-              </div>
-
-              <div class="price-card card-seven">
-                <div class="last-card">
-                  <p>
-                    Спасибо, что выбрали нас!
-                  </p>
-                  <p>
-                    Менеджер свяжется с Вами в ближайшее время.
-                  </p>
-              </div>
             </div>
-          </div>
         </section>
         <!-- /.price -->
 

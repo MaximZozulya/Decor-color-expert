@@ -26,3 +26,16 @@ const feedback = new Swiper('.swiper', {
 
 });
 
+const cards = new Swiper('.swiper', {
+  // Optional parameters
+  // direction: 'vertical',
+  loop: true,
+  slidesPerView: 1,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.cards-button-next',
+    prevEl: '.cards-button-prev',
+  },
+
+});
